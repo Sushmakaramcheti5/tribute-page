@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #9a9dff, #cfc4fa, #cdc2fb); /* Vibrant gradient with pink and peach tones */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #ff61bd; /* Bright coral header */
+    color: white;
+    padding: 20px 0;
+    border-bottom: 5px solid #d45d56; /* Subtle darker border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds depth */
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.tribute-img {
+    max-width: 300px;
+    border-radius: 15px; /* Rounded corners for the image */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* More prominent shadow for emphasis */
+    margin: 20px 0;
+}
+
+h2 {
+    color: #4a148c; /* Rich purple for headings */
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #3d3d3d; /* Neutral dark gray for contrast */
+    line-height: 1.8;
+    margin: 0 auto;
+    max-width: 600px; /* Keep the text readable and centered */
+    background-color: #ffffffaa; /* Transparent white background for better readability */
+    padding: 10px;
+    border-radius: 10px; /* Soft corners */
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 15px 0;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Blue-purple gradient for footer */
+    border-top: 2px solid #5a0eab; /* Subtle border effect */
+}
